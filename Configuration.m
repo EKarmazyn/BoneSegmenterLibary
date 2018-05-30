@@ -1,0 +1,39 @@
+classdef Configuration < handle
+    %CONFIGURATION Summary of this class goes here
+    %   Detailed explanation goes here
+    
+    properties (Constant)
+        ExampleDicomDataPath = 'C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\10';
+        ExampleHeadDataPath = 'C:\Users\mazna\Documents\nl\U\P\Data\Head\VisHumanProj';
+        Example2DicomDataPath = 'C:\Users\mazna\Documents\nl\U\P\Data\Example2\Case1Earlier';
+        
+        
+        PlySkeletonDataPath = 'C:\Users\mazna\Documents\nl\U\P\Data\Example\dicom_data\sr_vh_ss_h_surface_from_grahams_fixed_contours_all_Object 0.ply';
+        NifitSkeletonDataPath = 'C:\Users\mazna\Documents\nl\U\P\Data\Example\dicom_data\example_nifti.nii';
+        
+        PeakAlignment_ValidPeakParameter = 0.01; % * max_peak) < valid_peak
+        PeakAlignment_RelativeProminanceParameter = 0.1;
+        PeakAlignment_MaxPeakVelocity = 5; % in HU/mm
+        
+        BonePropagation_NearbyBoneFactor = 0.6;
+        
+        TorsoDatasets = ["C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\1",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\2",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\3",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\4",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\5",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\6",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\7",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\8",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\9",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\10",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\11",...
+                        "C:\Users\mazna\Documents\nl\U\P\Data\TestingSets\Torso\12",...
+                        ];
+    end
+    
+    
+    
+   
+end
+
